@@ -1,0 +1,558 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    background-color:rgb(178, 200, 211);
+    font-family: 'Architects Daughter', cursive;
+}
+.header
+{
+  width:1510;
+  height:100;
+  top: 0px;
+  left:0px;
+}
+.title img
+{
+    position: absolute;
+    top:30px;
+    left:35px;
+    width:55px;
+    height:55px;
+}
+
+.main
+{
+    position:absolute;
+    top: 155px;
+    left: 50px;
+    width: 1440;
+    height: 550;
+    background-color:#12232e;
+
+}
+
+.main img
+{
+  position: absolute;
+  top:40px;
+  left:230px;
+  width: 900px;
+  height:500px;
+  z-index:1;
+}
+.out{
+  position: absolute;
+  top: 66px;
+  left: 1073px;
+  width: 15px;
+  height: 15px;
+  border-radius: 7px;
+  background-color:rgb(73, 135, 172);
+  z-index: 2;
+  animation-name: fade;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+.hd
+{
+  position:absolute;
+  top:150px;
+  left:620px;
+  color:#eefbfb;
+  font-size:45px;
+  z-index: 2;
+  font-family: 'Yellowtail', cursive;
+}
+.name
+{
+  position:absolute;
+  top:250px;
+  left:800px;
+  color:#eefbfb;
+  font-size:30px;
+  z-index: 2;
+  
+}
+
+.prof
+{
+  position:absolute;
+  top:290px;
+  left:880;
+  color:#eefbfb;
+  font-size: 20px;
+  z-index: 2;
+}
+.navigation
+{
+    position: absolute;
+    top:50px;
+    left:500px;
+    font-size:15px;
+    font-weight:;
+    color: rgb(221, 231, 231);
+    font-family: 'Architects Daughter', cursive;
+}
+.navigation a
+{
+    padding:10px;
+    color:black;
+    font-weight:;
+    text-decoration:none;
+    border-radius: 5PX;
+}
+.navigation a:hover
+{
+    color:rgb(255, 255, 255) ;
+    background-color:#12232e;
+}
+.about
+{
+    position:absolute;
+    top: 1480px;
+    left: 0px;
+    width: 1518;
+    height: 450;
+    background-color:rgb(157, 195, 218);
+
+}
+.aboutimage img
+{
+    position:absolute;
+    left:900px;
+    width: 420;
+    height: 450;
+    background-color:rgb(157, 195, 218);
+   
+}
+.abouttitle
+{
+  position: absolute;
+  top:30px;
+  left:50px;
+  font-size:25px;
+  color:black;
+  font-family: 'Yellowtail', cursive;
+}
+.abouttitle hr
+{
+  width:150px;
+}
+.content
+{
+  position:absolute;
+  left:50px;
+  top:90px;
+  color:black;
+  font-size: 18px;
+  font-family: 'Architects Daughter', cursive;
+}
+.content a 
+{
+  text-decoration: none;
+}
+.aboutinfo
+{
+    position:absolute;
+    width:900px;
+    height:450px;
+    background-color:rgb(157, 195, 218);
+    border-radius:40px;
+    
+    
+}
+.sig img
+{
+  position:absolute;
+  top:280px;
+  left:60px;
+  width:350px;
+  height:200px;
+}
+.skill
+{
+    position:absolute;
+    top: 760px;
+    left: 50px;
+    width: 1440;
+    height: 700;
+    background-color:;
+    border-radius:40px;
+    color:black;
+
+}
+.skilltitle
+{
+  position: absolute;
+  top:30px;
+  left:50px;
+  font-size:25px;
+  color:black;
+  font-family: 'Yellowtail', cursive;
+}
+.skilltitle hr
+{
+  width:150px;
+}
+.skillcontent
+{
+  position:absolute;
+  left:100px;
+  top:90px;
+  color:black;
+  font-size: 18px;
+}
+.skillbox2
+{
+  position:absolute;
+  top:220px;
+  left:70px;
+  width:1300px;
+  height:450px;
+  
+
+}
+.sk1
+{
+  position:absolute;
+  top:20px;
+  left:20px;
+  width:100px;
+  height:70px;
+}
+.sk1 img
+{
+  position: absolute;
+  width:100px;
+  height:100px;
+ 
+}
+.sk1content
+{
+  position: absolute;
+  left:150px;
+  width:200px;
+  height:150px;
+  color:black;
+  font-size:17px;
+
+}
+.sk2
+{
+  position:absolute;
+  top:20px;
+  left:440px;
+  width:100px;
+  height:70px;
+}
+.sk2 img
+{
+  position: absolute;
+  width:100px;
+  height:100px;
+  background-color:;
+}
+.sk2content
+{
+  position: absolute;
+  left:150px;
+  width:200px;
+  height:150px;
+  color:black;
+}
+.sk3
+{
+  position:absolute;
+  top:20px;
+  left:860px;
+  width:100px;
+  height:70px;
+}
+.sk3 img
+{
+  position: absolute;
+  width:100px;
+  height:100px;
+
+}
+.sk3content
+{
+  position: absolute;
+  left:150px;
+  width:200px;
+  height:150px;
+  color:black;
+}
+.sk4
+{
+  position:absolute;
+  top:280px;
+  left:20px;
+  width:100px;
+  height:70px;
+}
+.sk4 img
+{
+  position: absolute;
+  width:100px;
+  height:100px;
+
+}
+.sk4icon
+{
+  position: absolute;
+  width:150px;
+  height:150px;
+}
+.sk4content
+{
+  position: absolute;
+  left:150px;
+  width:200px;
+  height:150px;
+  color:black;
+}
+.sk5
+{
+  position:absolute;
+  top:280px;
+  left:440px;
+  width:100px;
+  height:70px;
+}
+.sk5 img
+{
+  position: absolute;
+  width:100px;
+  height:100px;
+
+}
+.sk5icon
+{
+  position: absolute;
+  width:150px;
+  height:150px;
+}
+.sk5content
+{
+  position: absolute;
+  left:150px;
+  width:200px;
+  height:150px;
+  color:black;
+}
+
+.sk6
+{
+  position:absolute;
+  top:280px;
+  left:860px;
+  width:100px;
+  height:70px;
+}
+.sk6 img
+{
+  position: absolute;
+  width:150px;
+  height:150px;
+}
+.sk6content
+{
+  position: absolute;
+  left:150px;
+  width:200px;
+  height:150px;
+  color:black;
+}
+.text
+{
+  height:50px;
+  width:960px;
+  position:absolute;
+  top:1970px;
+  left:300px;
+  font-size:30px;
+  font-family: 'Architects Daughter', cursive;
+  color:black;
+  border-radius: 5px;
+}
+.proftitle
+{
+  position: absolute;
+  top:30px;
+  left:50px;
+  font-size: 25px;
+  color:black;
+  font-family: 'Yellowtail', cursive;
+}
+.proftitle hr
+{
+  width:150px;
+}
+.port
+{
+    position:absolute;
+    top: 2050px;
+    left: 50px;
+    width:1440;
+    height:550;
+    background-color:;
+    border-radius:40px;
+
+}
+.kpmg
+{
+  position:absolute;
+  top: 100px;
+  left: 50px;
+  border-radius:5px;
+}
+.kpmg img
+{
+  border-radius:10px;
+}
+.tsf
+{
+  position:absolute;
+  top: 100px;
+  left: 520px;
+  border-radius:5px;
+}
+.tsf img
+{
+  border-radius:10px;
+}
+.contact
+{
+    position:absolute;
+    top:2650px;
+    left:0px;
+    width:1518;
+    height:220;
+    background-color:rgb(157, 195, 218);
+
+}
+.skillbox
+{
+    position:absolute;
+    top:170px;
+    left:0px;
+    width:400px;
+    height:250px;
+    transform: rotate(270deg);
+    color:white; 
+     
+}
+.hover
+{
+  position:absolute;
+  top:500px;
+  left:90px;
+  color:white; 
+}
+.sql {
+    width: 20px;
+    height: 20px;
+    background: red;
+    transition: width 2s;
+    color:aliceblue;
+    font-size: 20px;
+    padding:10px;
+    text-align: center;
+    top:50%;
+
+  }
+  
+  .sql:hover {
+    width: 200px;
+  }
+  .excel {
+    width: 20px;
+    height: 20px;
+    background: rgb(207, 230, 9);
+    transition: width 2s;
+    color:aliceblue;
+    font-size: 20px;
+    padding:10px;
+
+  }
+  
+  .excel:hover {
+    width: 200px;
+  }
+  .tab {
+    width: 20px;
+    height: 20px;
+    background: rgb(9, 214, 37);
+    transition: width 2s;
+    color:aliceblue;
+    font-size: 20px;
+    padding:10px;
+
+  }
+  
+  .tab:hover {
+    width: 200px;
+  }
+  .r {
+    width: 20px;
+    height: 20px;
+    background: rgb(201, 12, 191);
+    transition: width 2s;
+    color:aliceblue;
+    font-size: 20px;
+    padding:10px;
+
+  }
+  
+  .r:hover {
+    width: 200px;
+  }
+  .lnk img
+  {
+    position: absolute;
+    top:50px;
+    left:1340px;
+    width:40px;
+    height:40px;
+  }
+  .lnk a
+  {
+    text-decoration: none;
+    padding:2px;
+  }
+  .git img
+  {
+    position: absolute;
+    top:50px;
+    left:1400px;
+    width:40px;
+    height:40px;
+  }
+  .git a
+  {
+    text-decoration: none;
+    padding:2px;
+  }
+  .mail
+  {
+    position: absolute;
+    top:30px;
+    left:40px;
+    color: black;
+  }
+  .cp
+  {
+    position: absolute;
+    top:180px;
+    left:680px;
+    color: black;
+  }
+  @keyframes fade {
+    from {background-color:rgb(73, 135, 172);}
+    to {background-color:yellow;}
+  }
+ 
