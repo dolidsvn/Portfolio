@@ -1,0 +1,119 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    background-color:#cbe2ec;
+    font-family: 'Architects Daughter', cursive;;
+}
+.header
+{
+  width:1510;
+  height:100;
+  top: 0px;
+  left:0px;
+}
+.title img
+{
+    position: absolute;
+    top:30px;
+    left:35px;
+    width:55px;
+    height:55px;
+}
+.navigation
+{
+    position: absolute;
+    top:50px;
+    left:500px;
+    font-size: 17px;
+    color: rgb(221, 231, 231);
+}
+.navigation a
+{
+    padding:10px;
+    color:#06235f;
+    text-decoration:none;
+    border-radius:5px;
+
+}
+.navigation a:hover
+{
+    color:rgb(255, 255, 255) ;
+    background-color:#4DA8DA;
+}
+.content
+{
+  position: absolute;
+  top: 200px;
+  left:60px;
+  font-size:20px;
+}
+.vid
+{
+  position: absolute;
+  top:500px;
+  left:100px;
+}
+.contact
+{
+    position:absolute;
+    top:1300px;
+    left:0px;
+    width:1518;
+    height:220;
+    background-color:rgb(73, 135, 172);
+
+}
+.lnk img
+  {
+    position: absolute;
+    top:50px;
+    left:1340px;
+    width:40px;
+    height:40px;
+  }
+  .lnk a
+  {
+    text-decoration: none;
+    padding:2px;
+  }
+  .git img
+  {
+    position: absolute;
+    top:50px;
+    left:1400px;
+    width:40px;
+    height:40px;
+  }
+  .git a
+  {
+    text-decoration: none;
+    padding:2px;
+  }
+  .mail
+  {
+    position: absolute;
+    top:30px;
+    left:40px;
+    color: white;
+  }
+  .cp
+  {
+    position: absolute;
+    top:180px;
+    left:680px;
+    color: white;
+  }
+  .cont
+  {
+    position:absolute;
+    top:1700px;
+    left:250px;
+  }
+  .cont img
+  {
+    height:2500px;
+    width: 1100px;
+  }
