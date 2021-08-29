@@ -425,6 +425,19 @@ body
 {
   border-radius:10px;
 }
+.myweb
+{
+  position:absolute;
+  top: 100px;
+  left: 990px;
+  border-radius:5px;
+}
+.myweb img
+{
+  border-radius:10px;
+  width: 450px;
+  height: 260px;
+}
 .contact
 {
     position:absolute;
