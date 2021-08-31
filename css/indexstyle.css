@@ -414,6 +414,21 @@ body
 {
   border-radius:10px;
 }
+.certi
+{
+  position:absolute;
+  top: 380px;
+  left: 200px;
+  color: white;
+  background-color: rgb(150, 95, 95);
+  padding:5px;
+  border-radius: 5px;
+}
+.certi a
+{
+  text-decoration: none;
+  color:white;
+}
 .tsf
 {
   position:absolute;
@@ -424,6 +439,21 @@ body
 .tsf img
 {
   border-radius:10px;
+}
+.cert
+{
+  position:absolute;
+  top: 380px;
+  left: 670px;
+  color: white;
+  background-color: rgb(150, 95, 95);
+  padding:5px;
+  border-radius: 5px;
+}
+.cert a
+{
+  text-decoration: none;
+  color:white;
 }
 .myweb
 {
